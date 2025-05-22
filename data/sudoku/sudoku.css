@@ -1,0 +1,142 @@
+/* RESET ALL BROWSER DEFAULT SPACING */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#main-content {
+    flex-grow: 1;
+    padding: 20px;
+
+    transform-origin: top center;
+}
+
+hr {
+    /* width: 1000px; */
+    border: 1px solid lightgray;
+}
+
+body {
+    padding-top: 20px;
+
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align:  center;
+    overflow-x: hidden;
+}
+
+.webTitleFont {
+    text-align: start;
+    font-family: 'Merriweather';
+}
+
+#title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+#musicToggle {
+    margin-right: 200px;
+}
+
+.navbar-brand {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Optional: Ensure it inherits the text color */
+}
+
+hr {
+    /* width: 1000px; */
+    border: 1px solid lightgray;
+}
+
+body {
+    padding-top: 20px;
+    
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align:  center;
+    overflow-x: hidden;
+}
+
+#webTitle {
+    padding-bottom: 20px;
+    text-align: start;
+    font-family: 'Merriweather';
+    margin-left: 200px;
+}
+
+#errors {
+    color: coral;
+    padding-bottom: 20px;
+}
+
+/* Adjust the board size */
+#board {
+    width: 585px; /* 450px * 1.3 */
+    height: 585px; /* 450px * 1.3 */
+    margin: 0 auto; /* Center the board */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Adjust the size of each tile */
+.title {
+    width: 63px; /* 48px * 1.3 */
+    height: 65px; /* 49px * 1.3 */
+    border: 1px solid lightgray;
+
+    /* Text alignment */
+    font-size: 26px; /* 20px * 1.3 */
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-wrong {
+    color: coral;
+}
+
+/* Style for the digits container */
+#digits {
+    display: flex;
+    flex-direction: column; /* Arrange digits vertically */
+    gap: 10px; /* Add spacing between digits */
+    align-items: center; /* Center digits horizontally */
+    margin-top: 20px; /* Add some space from the top */
+}
+
+/* Style for each digit */
+.number {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    cursor: pointer;
+    user-select: none;
+}
+
+.number-selected {
+    background-color: gray;
+}
+
+.title-start {
+    background-color: whitesmoke;
+}
+
+.horizontal-line {
+    border-bottom: 2px solid black;
+}
+
+.vertical-line {
+    border-right: 2px solid black;
+}

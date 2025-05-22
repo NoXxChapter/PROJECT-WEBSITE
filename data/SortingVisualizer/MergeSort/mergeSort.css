@@ -1,0 +1,90 @@
+/* RESET ALL BROWSER DEFAULT SPACING */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-content {
+    flex-grow: 1;
+    padding: 20px;
+
+    transform-origin: top center;
+}
+
+hr {
+    /* width: 1000px; */
+    border: 1px solid lightgray;
+}
+
+body {
+    padding-top: 20px;
+
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align:  center;
+    overflow-x: hidden;
+}
+
+.webTitleFont {
+    text-align: start;
+    font-family: 'Merriweather';
+    font-size: xx-large; 
+}
+
+#title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+#musicToggle {
+    margin-right: 200px;
+}
+
+.navbar-brand {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Optional: Ensure it inherits the text color */
+}
+
+/* CARD CUSTOM */
+
+.custom-card {
+    margin: 15px; /* Adjust the spacing as needed */
+}
+
+
+
+
+
+
+/* CUSTOM */
+
+#visual {
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bar {
+    
+    width: 10px;
+    background-color: #39ff14; /* Neon green */
+    margin: 1px;
+}
+
+.bar.compare {
+    background-color: white !important;
+}
+
+.bar.overwrite {
+    background-color: yellow !important;
+}

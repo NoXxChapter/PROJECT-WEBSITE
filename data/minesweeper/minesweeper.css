@@ -1,0 +1,173 @@
+/* RESET ALL BROWSER DEFAULT SPACING */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-content {
+    flex-grow: 1;
+    padding: 20px;
+
+    transform-origin: top center;
+}
+
+hr {
+    /* width: 1000px; */
+    border: 1px solid lightgray;
+}
+
+body {
+    padding-top: 20px;
+
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align:  center;
+    overflow-x: hidden;
+}
+
+.webTitleFont {
+    text-align: start;
+    font-family: 'Merriweather';
+}
+
+#title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+#musicToggle {
+    margin-right: 200px;
+}
+
+.navbar-brand {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Optional: Ensure it inherits the text color */
+}
+
+
+hr {
+    /* width: 1000px; */
+    border: 1px solid lightgray;
+}
+
+body {
+    padding-top: 20px;
+
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align:  center;
+    overflow-x: hidden;
+}
+
+#minesDisplay {
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Merriweather';
+    margin: 0 auto;
+    width: fit-content;
+}
+
+
+
+#webTitle {
+    padding-bottom: 20px;
+    text-align: start;
+    font-family: 'Merriweather';
+    margin-left: 200px;
+    
+}
+
+#board {
+    width: 610px;
+    height: 609px;
+    border: 5px solid darkgray;
+    background-color: lightgray;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0; 
+}
+
+#board div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid whitesmoke;
+
+    /* Ensure borders are included in size calculations */
+    box-sizing: border-box;
+
+    /* Text alignment */
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile-clicked {
+    background-color: darkgrey;
+}
+
+.x1 {
+    color: blue;
+
+}
+
+.x2 {
+    color: green;
+
+}
+
+.x3 {
+    color: red;
+
+}
+
+.x4 {
+    color: navy;
+}
+
+.x5 { 
+    color: brown;
+
+}
+
+.x6 {
+    color: teal;
+
+}
+
+.x7 {
+    color: black;
+
+}
+
+.x8 {
+    color: gray;
+}
+
+#flag-button {
+    width: 100px;
+    height: 50px;
+
+    font-size: 30px;
+    background-color: lightgray;
+
+    border: none;
+
+    margin: 1px;
+}
+
+#undo-button {
+    width: 100px;
+    height: 50px;
+
+    font-size: 30px;
+    background-color: lightgray;
+
+    border: none;
+
+    margin: 1px;
+}

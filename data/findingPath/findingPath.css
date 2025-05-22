@@ -1,0 +1,185 @@
+/* RESET ALL BROWSER DEFAULT SPACING */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-content {
+    flex-grow: 1;
+    padding: 20px;
+
+    transform-origin: top center;
+}
+
+hr {
+    /* width: 1000px; */
+    border: 1px solid lightgray;
+}
+
+body {
+    padding-top: 20px;
+
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align:  center;
+    overflow-x: hidden;
+}
+
+.webTitleFont {
+    text-align: start;
+    font-family: 'Merriweather';
+}
+
+#title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+#musicToggle {
+    margin-right: 200px;
+}
+
+.navbar-brand {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Optional: Ensure it inherits the text color */
+}
+
+
+hr {
+    /* width: 1000px; */
+    border: 1px solid lightgray;
+}
+
+body {
+    padding-top: 20px;
+
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align:  center;
+    overflow-x: hidden;
+}
+
+#webTitle {
+    padding-bottom: 20px;
+    text-align: start;
+    font-family: 'Merriweather';
+    margin-left: 200px;
+    
+}
+
+#board {
+    width: 706px;
+    height: 706px;
+    border: 5px solid darkgray;
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+.tile {
+    width: 29px; 
+    height: 29px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    background-color: rgb(255, 209, 124);
+    border-radius: 5px;
+}
+
+
+.box {
+    width: 300px;
+    height: 700px;
+    border: 5px solid darkgray;
+    background-color: white;
+}
+
+.tile.origin {
+    background-color: #4caf50 !important;
+}
+
+.tile.destiny {
+    background-color: #8e24aa !important;
+}
+
+.tile.obstacle {
+    background-color: #424242 !important;
+}
+
+.tile.path {
+    background-color: cyan !important;
+}
+
+.instruction-card {
+    background: #23405c;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #fff;
+    font-family: 'Merriweather', Arial, sans-serif;
+    width: 260px;
+}
+
+.instruction-header {
+    background: #7ecbff;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 8px 16px;
+    text-align: center;
+    border-bottom: 1px solid #b3e5fc;
+}
+
+.instruction-body {
+    padding: 16px;
+    font-size: 1rem;
+    background: #23405c;
+}
+
+.instruction-body div {
+    margin-bottom: 8px;
+    color: #fff;
+    font-family: 'Merriweather', Arial, sans-serif;
+    font-size: 1.1em;
+}
+
+.colors-legend {
+    background: #18344a;
+    padding: 16px;
+    border-radius: 0 0 10px 10px;
+}
+
+.legend-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.legend-color {
+    display: inline-block;
+    width: 32px;
+    height: 20px;
+    border: 2px solid #fff;
+    margin-right: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.legend-label {
+    font-family: 'Merriweather', monospace, Arial, sans-serif;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Color swatches */
+.legend-color.grid     { background: #ffd600; }
+.legend-color.search   { background: #e75480; }
+.legend-color.obstacle { background: #424242; }
+.legend-color.origin   { background: green;   }
+.legend-color.destiny  { background: purple;  }
+.legend-color.path     { background: #00bcd4; }
